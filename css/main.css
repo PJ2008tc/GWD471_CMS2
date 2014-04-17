@@ -1,0 +1,5 @@
+#home .home_link,
+#about .about_link,
+#contact .contact_link {
+  color:red;
+}
