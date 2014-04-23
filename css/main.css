@@ -3,3 +3,133 @@
 #contact .contact_link {
   color:red;
 }
+
+#home body
+#about body
+#contact body {
+  background:url(images/fabric_of_squares_gray.png) repeat;
+}
+
+#about #boxes {
+  width:300px;
+  height:300px;
+  background:#333;
+  position:relative;
+  left:50px;
+}
+
+#about #box {
+  width:300px;
+  height:300px;
+  background:#333;
+  position:relative;
+  top: -300px;
+  left:450px;
+  
+}
+
+#about #bo {
+  width:300px;
+  height:300px;
+  background:#333;
+  position:relative;
+  top: -600px;
+  left:850px;
+}
+
+#about .boxes {
+  width:200px;
+  height:200px;
+  background:#333;
+  position:relative;
+  left:200px
+}
+
+#about ul.pricing-table {
+  border:solid 1px #ddd;
+  margin-bottom:20;
+  list-style-type:none;
+  width:200px;
+  position:relative;
+  top:-575px;
+  left:75px;
+}
+
+#about ul#pricing-tables {
+  border:solid 1px #ddd;
+  margin-bottom:20;
+  list-style-type:none;
+  width:200px;
+  position:relative;
+  top:-715px;
+  left:475px;
+}
+
+#about ul#pricing-tabless {
+  border:solid 1px #ddd;
+  margin-bottom:20;
+  list-style-type:none;
+  width:200px;
+  position:relative;
+  top:-860px;
+  left:875px;
+}
+
+
+#about li.title {
+  background: #ddd;
+  padding:rem-calc(15 20);
+  align:center;
+  color:#333;
+  weight:bold;
+  font-size:36px;
+  text-decoration: none;
+}
+
+#about li.price {
+  background: #eee;
+  padding:rem-calc(15 20);
+  align: center;
+  color: #333;
+  weight: normal;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+#about li.description {
+  background: #fff;
+  color: #777;
+  padding: rem-calc(15);
+  align: center;
+  font-size: 24px;
+  weight: normal;
+  height: 1.4;
+  border: dotted 1px #ddd;
+  text-decoration: none;
+}
+
+#about li.bullet-item {
+  color: #333;
+  padding: rem-calc(15);
+  align: center;
+  font-size: 24px;
+  weight: normal;
+  border: dotted 1px #ddd;
+  text-decoration: none;
+}
+
+#about li.cta-butten {
+  background: #f5f5f5;
+  align: center;
+  padding: 20 20 0;
+  text-decoration: none;
+}
+
+#about .button {
+  background:#ACEBC1;
+  width:50px;
+  height:25px;
+  border-radius:5px;
+  text-decoration:none;
+}
+
