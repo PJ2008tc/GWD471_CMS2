@@ -4,6 +4,9 @@
   color:red;
 }
 
+label {display:block;}
+.errors {display:block;color:red;}
+
 #home body
 #about body
 #contact body {
