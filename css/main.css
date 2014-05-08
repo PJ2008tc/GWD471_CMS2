@@ -5,7 +5,14 @@
 }
 
 label {display:block;}
-.errors {display:block;color:red;}
+.errors{display:block;color:red;}
+.product{width:200px;border:medium;padding:15px;float:left;}
+.product img{width:170px; height:100px;background:#ccc;}
+.clear{clear:both;}
+
+label, textarea, input{display:block;}
+
+
 
 #home body
 #about body

@@ -20,19 +20,24 @@
     <section>
     	<h2>About</h2>
         <?php 
+          echo '<div id="products">';
           while($row = $myData->fetch_assoc())
           {
-            echo $row['name'] . '<br>';
-            echo $row['price'] . '<br>';
-            echo $row['description'] . '<br>';
+            echo '<div class="product">';
+            echo '<img src="" alt="" />';
+            echo '<h3>' . $row['name'] . '</h3>';
+            echo '<p>' . $row['description'] . '</p>';
+            echo '<p>$' . $row['price'] . '</p>';
+            echo '</div>';
           }
-      
+           echo '<br class="clear" />';
+           echo '</div>';
         ?>
         
       
-      
-    </section>
-
+     
+   </section>
+<!--
   <div id="boxes">
    
   </div>
@@ -63,6 +68,8 @@
     <li class="bullet-item">1000 gb Database</li>
     <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
   </ul>
+-->
+ 
 
   <?php require_once('includes/footer.php'); ?>
    
