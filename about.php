@@ -1,4 +1,16 @@
- 
+<style>
+  body {
+  background:url(images/photography.png) repeat;
+  }
+  section {
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10%;
+    border: solid 3px #333;
+    padding-left:40px;
+  }
+  </style> 
 
   <?php $page_id = 'about'; ?>
   <?php require_once('../../config.php'); ?>

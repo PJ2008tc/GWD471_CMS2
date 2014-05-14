@@ -2,6 +2,17 @@
   <?php $page_id = 'home'; ?>
   <?php require_once('includes/top.php'); ?>
   <?php require_once('includes/header.php'); ?>
+
+  <style>
+  body {
+  background:url(images/photography.png) repeat;
+  }
+  section {
+    width:74%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  </style>
   
     <section>
     	<h2>Intro</h2>

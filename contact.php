@@ -1,5 +1,19 @@
+<style>
+  body {
+  background:url(images/photography.png) repeat;
+  }
+  section {
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10%;
+    border: solid 3px #333;
+    padding:30px;
+  }
+  </style>
+  
 
-   <?php
+<?php
 
       if(@$_POST['submit'])
       {
