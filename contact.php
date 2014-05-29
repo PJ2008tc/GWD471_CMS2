@@ -3,11 +3,12 @@
   background:url(images/photography.png) repeat;
   }
   section {
+    background:#F9C065;
     width:60%;
     margin-left:auto;
     margin-right:auto;
     border-radius:10%;
-    border: solid 3px #333;
+    border: solid 10px #555;
     padding:30px;
   }
   </style>

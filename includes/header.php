@@ -10,11 +10,14 @@
 <style>
   
   h1{
-    color:#333;
+    color:#555;
     font-family:Arial;
-    width:30%;
+    width:100%;
+    height:50px;
+    padding-top:10px;
     margin-right:auto;
     margin-left:auto;
+    background:#999;
     /*position:relative;
     left:425px;*/
   }
