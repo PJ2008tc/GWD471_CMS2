@@ -1,6 +1,6 @@
 <h2>Intro</h2>
         <p>
-        <img src="images/ceo.jpg" alt="my pic" />
+        <img src="images/arrows.png" alt="my pic" />
            <?php echo $intro ?>
         </p>
       
@@ -30,7 +30,8 @@ section
     padding-right:10px;
     height:1000px;
     border-radius:3%;
-    background:#777;
+    background:#999;
+    opacity:0.9;
   }
   
 img

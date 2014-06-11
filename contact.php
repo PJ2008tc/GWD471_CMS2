@@ -1,6 +1,6 @@
 <style>
   body {
-  background:url(images/photography.png) repeat;
+ background:url(images/fabric_of_squares_gray.png) repeat;
   }
   section {
     background:#999;
@@ -9,8 +9,21 @@
     margin-right:auto;
     border-radius:10%;
     padding:30px;
+    position:relative;
+    top:-300px;
   }
-  
+  label{
+    font-family:Arial;
+    color:white;
+  }
+  section h2{
+    font-family:Arial;
+    color:white;
+  }
+  legend{
+   font-family:Arial;
+    color:white;
+  }
 input, textarea {
     width:439px;
     height:27px;

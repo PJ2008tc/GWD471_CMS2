@@ -1,14 +1,18 @@
 <style>
-  body {
-  background:url(images/photography.png) repeat;
+   body {
+  background:url(images/fabric_of_squares_gray.png) repeat;
   }
   section {
-   padding-left:300px;
-    padding-right:10px;
+   padding-left:50px;
+    padding-right:50px;
     padding-top:10px;
     height:400px;
     border-radius:3%;
     background:#999;
+    width:700px;
+    position:relative;
+    left:300px;
+    top:-300px;
   }
   </style> 
 
@@ -36,7 +40,7 @@
           while($row = $myData->fetch_assoc())
           {
             echo '<div class="product">';
-            echo '<img src="" alt="" />';
+            echo '<img src="http://pj2008tc.aisites.com/expressionengine/pics/widget_03.png" alt="widget" />';
             echo '<h3>' . $row['name'] . '</h3>';
             echo '<p>' . $row['description'] . '</p>';
             echo '<p>$' . $row['price'] . '</p>';

@@ -30,12 +30,15 @@
 
   <style>
   body {
-  background:url(images/photography.png) repeat;
+  background:url(images/fabric_of_squares_gray.png) repeat;
   }
+  
   section {
     width:74%;
     margin-left:auto;
     margin-right:auto;
+    position:relative;
+    top:-465px;
   }
   </style>
   

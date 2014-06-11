@@ -20,32 +20,36 @@
     margin-right:auto;
     margin-left:auto;
     background:#999;
+    position:relative;
+    left:-8px;
     /*position:relative;
     left:425px;*/
   }
   
   nav {
-    display: inline;
+   
     
   }
 
   nav a {
   font-family:Arial;
-	display:inline-block;
   padding-right:100px;
   text-decoration: none; 
   position:relative;
-  left:350px;
+  left:0px;
+  top:-75px;
   }
   
   a:link {
-    color:#333;
+    color:white;
   }
   
  a:hover {
-   color:#64B0A7;
+   color:gray;
  }
-  
+  a:active{
+    color:white;
+  }
 
 
   
