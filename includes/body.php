@@ -12,6 +12,7 @@
 h2
   {
     padding-left:20px;
+    padding-top:10px;
     font-family:Arial;
     font-size:36px;
   }

@@ -3,14 +3,27 @@
   background:url(images/photography.png) repeat;
   }
   section {
-    background:#F9C065;
+    background:#999;
     width:60%;
     margin-left:auto;
     margin-right:auto;
     border-radius:10%;
-    border: solid 10px #555;
     padding:30px;
   }
+  
+input, textarea {
+    width:439px;
+    height:27px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
   </style>
   
 

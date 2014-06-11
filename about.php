@@ -3,12 +3,12 @@
   background:url(images/photography.png) repeat;
   }
   section {
-    width:60%;
-    margin-left:auto;
-    margin-right:auto;
-    border-radius:10%;
-    border: solid 3px #333;
-    padding-left:40px;
+   padding-left:300px;
+    padding-right:10px;
+    padding-top:10px;
+    height:400px;
+    border-radius:3%;
+    background:#999;
   }
   </style> 
 
@@ -46,7 +46,7 @@
            echo '</div>';
         ?>
         
-      
+     
      
    </section>
 <!--
